@@ -27,3 +27,13 @@ The goal of this post is to guide new users through the set up process of their 
 ![Image](vss4.jpg)
 10. The password that you will use is the same one that you changed 10-15 minutes prior to getting to this step.
 11. Upon connection your terminal will show you information like cpu usage and time connected. Your terminal should look like this: 
+![Image](remoteconnection.jpg)
+12. Congratulations! If you're terminal looks similar to the screenshot above, you have successfully completed this step.
+## Running Commands
+1. Now that you have successfully connected to a remote machine, you can try various commands in your terminal. There is a plethora of commands that you can run, however, some basic and useful commands consist of the following:
+   * cd
+   * cd ~
+   * ls -a
+   * pwd
+2. If you have done everything right up to this point, after typing the commands, you should see results similar to this: 
+![Image](commands.jpg)
