@@ -26,3 +26,4 @@ The goal of this post is to guide new users through the set up process of their 
 9. Upon typing yes, you will be met with text asking you to put your password. That text should look something like this: 
 ![Image](vss4.jpg)
 10. The password that you will use is the same one that you changed 10-15 minutes prior to getting to this step.
+11. Upon connection your terminal will show you information like cpu usage and time connected. Your terminal should look like this: 
