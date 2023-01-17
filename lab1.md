@@ -17,3 +17,11 @@ The goal of this post is to guide new users through the set up process of their 
 1. Now that you have Visual Studio Code downloaded, you will create a folder labeled CSE15. It can be named whatever you'd like, the name really just serves as a way to organize your data.
 2. There are multiple ways to create/access folders within VS Code, however, my personal favorite is right clicking the blank space on the left side of the application. Once you right click the left side, you should see a screen similar to this:
 ![Image](vss3.jpg)
+3. From here you will create a new folder and label it whatever you'd like. 
+4. After creating your folder, you will right click the same place and click on the "Open in Integrated Terminal" option. 
+5. Upon opening your terminal you will use "ssh" in order to remotely connect.
+6. In order to continue you must have your course-specific CSE15L account, which should look something like cs15lwi23***, with the asterisks being placeholders for your specific information.
+7. You will now click on your terminal and type out the following command: ssh cs15lwi23***@ieng6.ucsd.edu
+8. If it is your first time logging in, you will be met with text in your terminal (I can't provide the text as I have already connected before and never took a screenshot of the text), as well the option to continue by typing (yes/no/[fingerprint]). Upon seeing a message similar to this, type out yes in your terminal to continue connecting.
+9. Upon typing yes, you will be met with text asking you to put your password. That text should look something like this: 
+![
