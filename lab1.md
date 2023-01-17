@@ -7,4 +7,5 @@ The goal of this post is to guide new users through the set up process of their 
 ## Visual Studio Code
 1. Within the 10 minutes you have after changing your password for your UCSD account, it is important to download Visual Studio Code. Visual Studio Code is an editor that will allow you to connect to ieng6 with a few commands that will be mentioned later on. 
 2. Visual Studio code is located at: (https://code.visualstudio.com/).
-3. Upon entering the website, you will be met with a screen similar to this: ( 
+3. Upon entering the website, you will be met with a screen similar to this:
+![Image](vss.png) 
