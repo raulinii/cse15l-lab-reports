@@ -11,4 +11,5 @@ The goal of this post is to guide new users through the set up process of their 
 ![Image](vss.jpg) 
 4. Since there is different download files for different operating systems, download the one that is corresponding to your machine.
 5. After downloading and opening Visual Studio Code, you will be met with a screen similar to this: 
-![Image](
+![Image](vss2.jpg)
+6. Congratulations, you have successfully set up Visual Studio Code on your personal device. By this point, the password on your UCSD account should be updated, which allows us to continue onto the next step which is connecting to ieng6 remotely.
