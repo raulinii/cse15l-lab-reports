@@ -9,3 +9,6 @@ The goal of this post is to guide new users through the set up process of their 
 2. Visual Studio code is located at: (https://code.visualstudio.com/).
 3. Upon entering the website, you will be met with a screen similar to this:
 ![Image](vss.jpg) 
+4. Since there is different download files for different operating systems, download the one that is corresponding to your machine.
+5. After downloading and opening Visual Studio Code, you will be met with a screen similar to this: 
+![Image](
