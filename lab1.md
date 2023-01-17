@@ -39,5 +39,6 @@ The goal of this post is to guide new users through the set up process of their 
 ![Image](commands.jpg)
 3. Congratulations, you have successfully ran commands on a remote machine. If you'd like to exit, you can run the following command in your terminal: 
    * exit
+
 Or, you can do the shortcut on your keyboard which is: 
    * Ctrl-D
