@@ -1,4 +1,4 @@
-# Connecting to Remote Access
+# Remote Acesss
 The goal of this post is to guide new users through the set up process of their CSE15L account as well as providing instructions as to how to connect to their course specific ieng6 account.
 ## Setting Up CSE15L Account
 1. The first step in connecting to ieng6 is setting up your CSE15L account. The details corresponding to your account will be located in the following link:(https://sdacs.ucsd.edu/~icc/index.php).
@@ -13,3 +13,7 @@ The goal of this post is to guide new users through the set up process of their 
 5. After downloading and opening Visual Studio Code, you will be met with a screen similar to this: 
 ![Image](vss2.jpg)
 6. Congratulations, you have successfully set up Visual Studio Code on your personal device. By this point, the password on your UCSD account should be updated, which allows us to continue onto the next step which is connecting to ieng6 remotely.
+## Connecting to Remote Access
+1. Now that you have Visual Studio Code downloaded, you will create a folder labeled CSE15. It can be named whatever you'd like, the name really just serves as a way to organize your data.
+2. There are multiple ways to create/access folders within VS Code, however, my personal favorite is right clicking the blank space on the left side of the application. Once you right click the left side, you should see a screen similar to this:
+![Image](vss3.jpg)
