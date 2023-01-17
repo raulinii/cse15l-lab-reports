@@ -24,4 +24,5 @@ The goal of this post is to guide new users through the set up process of their 
 7. You will now click on your terminal and type out the following command: ssh cs15lwi23***@ieng6.ucsd.edu
 8. If it is your first time logging in, you will be met with text in your terminal (I can't provide the text as I have already connected before and never took a screenshot of the text), as well the option to continue by typing (yes/no/[fingerprint]). Upon seeing a message similar to this, type out yes in your terminal to continue connecting.
 9. Upon typing yes, you will be met with text asking you to put your password. That text should look something like this: 
-![
+![Image](vss4.jpg)
+10. The password that you will use is the same one that you changed 10-15 minutes prior to getting to this step.
