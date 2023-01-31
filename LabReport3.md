@@ -8,8 +8,7 @@ import java.io.IOException;
 import java.net.URI;
 
 class Handler implements URLHandler {
-    // The one bit of state on the server: a number that will be manipulated by
-    // various requests.
+    // The string that will be modified after taking in requests
     String input = "";
 
     public String handleRequest(URI url) {
@@ -41,3 +40,15 @@ class StringServer {
 ```
 The following screenshots show the web server taking in requests that modify the page. The requests have a format that looks like this :
 `/add-message?s=<string>`
+
+Example 1:
+
+![Image](ss1.jpg)
+
+- In the following image, the method that is called is `public String handleRequest(URI url)`
+- Some important fields and arguments of this method are the `url` parameter and the String value labeled `input`
+- After taking in the request `/add-message?s=Hello`, the `url` parameter gets changed to the new url of the web server. After the code exectutes, input is changed to the String at the end of the request. In this example, that string is `Hello`
+
+Example 2:
+
+![Image](ss2.jpg)
