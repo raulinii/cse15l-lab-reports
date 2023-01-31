@@ -115,8 +115,8 @@ The following images show the behavior of the codes when taking in a failure ind
 
 ![Image](ss3.jpg)
 
-- The image above shows the symptoms of a failure inducing input.
+- The image above shows the symptoms of a failure inducing input
 
 ![Image](ss4.jpg)
 
-- The image above shows the symptoms of an input that works.
+- The image above shows the symptoms of an input that works
