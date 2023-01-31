@@ -83,10 +83,21 @@ public class ArrayExamples {
 public class ArrayTests {
 	@Test 
 	public void testReverseInPlace() {
-    int[] input1 = { 3, 4 };
+    int[] input1 = {0};
     ArrayExamples.reverseInPlace(input1);
-    assertArrayEquals(new int[]{ 4, 3 }, input1);
+    assertArrayEquals(new int[]{0}, input1);
 	}
 ```
-- The test being used to test the first code block are show above:
-                                                                           
+- The test being used to test the first code block is shown above:
+> Note: The "0" values that are shown above are placeholders and are changed as different tests are created.
+
+The first code block shown above has some bugs to it. The purpose of the code is reverse an input array, however, when trying certain values, the code does not work as intended. For example, when setting the input array as `int[] = {3,4}` and running the code, the array that will be returned contains the values {4,4}. The input that makes the code not work as intended looks like this:
+```
+public class ArrayTests {
+	@Test 
+	public void testReverseInPlace() {
+    int[] input1 = {3,4};
+    ArrayExamples.reverseInPlace(input1);
+    assertArrayEquals(new int[]{4, 3}, input1);
+	}
+```
