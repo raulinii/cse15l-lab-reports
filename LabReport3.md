@@ -47,8 +47,46 @@ Example 1:
 
 - In the following image, the method that is called is `public String handleRequest(URI url)`
 - Some important fields and arguments of this method are the `url` parameter and the String value labeled `input`
-- After taking in the request `/add-message?s=Hello`, the `url` parameter gets changed to the new url of the web server. After the code exectutes, input is changed to the String at the end of the request. In this example, that string is `Hello`
+- After taking in the request `/add-message?s=Hello`, the `url` parameter gets changed to the new url of the web server. After the code executes, input is changed to the String at the end of the request. In this example, that string is `Hello`
+- Now that the method has run, as shown in the image, the web server will now display:
+```
+Hello
+```
 
 Example 2:
 
 ![Image](ss2.jpg)
+
+- In the following image, the method that is called is `public String handleRequest(URI url)`
+- Some important fields and arguments of this method are the `url` parameter and the String value label `input`
+- After taking in the request `/add-message?s=How are you`, the `url` parameter gers changed to the new url of the web server. After the code executes, input is changed to the string at the end of the request. In this example, that string is `How are you`
+- Now that the method has run, as shown in the image, the web server will now display: 
+```
+Hello
+How are you
+```
+---
+## Part 2 - Bugs from Lab 3
+The following code blocks are from the examples provided to us from Lab 3. The first code block is the actual code, while the second code block consists of a junit test that relates to the first code block.
+```
+public class ArrayExamples {
+
+  // Changes the input array to be in reversed order
+  static void reverseInPlace(int[] arr) {
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = arr[arr.length - i - 1];
+    }
+  }
+```
+- Actual code being ran is shown above:
+```
+public class ArrayTests {
+	@Test 
+	public void testReverseInPlace() {
+    int[] input1 = { 3, 4 };
+    ArrayExamples.reverseInPlace(input1);
+    assertArrayEquals(new int[]{ 4, 3 }, input1);
+	}
+```
+- The test being used to test the first code block are show above:
+                                                                           
