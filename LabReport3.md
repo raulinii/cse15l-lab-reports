@@ -120,3 +120,33 @@ The following images show the behavior of the codes when taking in a failure ind
 ![Image](ss4.jpg)
 
 - The image above shows the symptoms of an input that works
+
+Since the first code block has some bugs, there has to be a way to address them. I added some extra lines to the first code block and it now reverses the input arrays properly. Below are the first code block, as well as the new code block with the improvements.
+```
+public class ArrayExamples {
+
+  // Changes the input array to be in reversed order
+  static void reverseInPlace(int[] arr) {
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = arr[arr.length - i - 1];
+    }
+  }
+```
+- The code block above is the old version with bugs
+```
+public class ArrayExamples {
+
+  // Changes the input array to be in reversed order
+  static void reverseInPlace(int[] arr) {
+    int arr2 [] = new int[arr.length];
+    for(int i = 0; i < arr.length; i++){
+      arr2[i] = arr[i];
+    }
+    for(int i = 0; i < arr.length; i ++) {
+      arr[i] = arr2[arr.length - i - 1];
+    }
+  }
+```
+- The block above is the new and improved version that properly reverses the input array. This fix addresses the bugs from the first version because it creates another array that copies the first array, retaining the values that the old array was overriding.
+
+In conclusion, I've learned many new concepts in the past two weeks. One concept that I liked learning about a bit more in depth was Junit testing. Since I'm taking CSE 12, it allows me to bring concepts from this class over to CSE 12, which in turn helps me be more productive. Another thing I liked learning about was web servers and manipulating them with requests. I'd still like to learn a bit more about the commands used for web servers, however, the intitial concept was a pleasure to learn.
