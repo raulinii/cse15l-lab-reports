@@ -101,3 +101,13 @@ public class ArrayTests {
     assertArrayEquals(new int[]{4, 3}, input1);
 	}
 ```
+While the first code block does have some bugs, there are some inputs that do work with the code. For example, if the input is just one value, lets say for example we create an array that looks like `int[] input1 = {0}` and run the method `testReverInPlace`, the code will work as intended. The output that we should expect is 0, which turns out to be the case after running the method. The input that makes the code work as intended looks like this:
+```
+public class ArrayTests {
+	@Test 
+	public void testReverseInPlace() {
+    int[] input1 = {0};
+    ArrayExamples.reverseInPlace(input1);
+    assertArrayEquals(new int[]{0}, input1);
+	}
+```
