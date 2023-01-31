@@ -111,3 +111,12 @@ public class ArrayTests {
     assertArrayEquals(new int[]{0}, input1);
 	}
 ```
+The following images show the behavior of the codes when taking in a failure inducing input as well as an input that works:
+
+![Image](ss3.jpg)
+
+- The image above shows the symptoms of a failure inducing input.
+
+![Image](ss4.jpg)
+
+- The image above shows the symptoms of an input that works.
