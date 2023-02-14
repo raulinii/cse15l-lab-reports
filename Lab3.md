@@ -18,4 +18,20 @@ written_2/travel_guides/berlitz1/WhatToItaly.txt
 written_2/travel_guides/berlitz1/WhereToItaly.txt
 ```
 ## Example #2
-The second command that will be showcased is `grep 
+The second command that will be showcased is `grep -o`.
+What does this command do? This command searches for the string inputted and returns only the string instead of the whole line. For example, when using `grep -i`, the whole file location is returned, however, `grep -o` just returns the string that was being searched.
+- The following command was ran: `grep -o "Berlin" grep-results.txt > grepBerlin2.txt` , and the output was as follows: 
+```
+Berlin
+Berlin
+Berlin
+```
+- The following command was ran: `grep -o "Italy" grep-results.txt > grepItaly2.txt` , and the output was as follows:
+```
+Italy
+Italy
+Italy
+Italy
+```
+## Example #3
+The third command that will be showcased is `grep 
