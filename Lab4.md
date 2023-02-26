@@ -14,3 +14,9 @@ The fourth step is to login to ieng6 with my course specific account. Since I co
 ## Step 5
 The fifth step was to clone my fork of the repository that was given to us earlier. Since I had previoulsy ran the command necessary, I was able to save time by using the following command `<up><up><up><up><enter>`. That process looked something like this: 
 ![Image](pic4lab4.jpg)
+## Step 6
+The sixth step was to run the JUnit tests given to us to show that they fail. Since I wasn't in the file that was just cloned, I had to use the command `cd lab7` in order to enter the file with the JUnit tests. Afterwards, the commands I used to run the tests were `<up><up><up><enter>`. That process looked something like this: 
+![Image](pic5lab4.jpg)
+## Step 7
+
+
